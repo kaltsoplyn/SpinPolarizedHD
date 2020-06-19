@@ -14,8 +14,8 @@ Since this work is particular to our experiments, where the oscillating electron
 it induces to a tiny pick-up coil, the observable here is essentially the time-derivative of the expectation value of the electronic 
 polarization along the axis of the coil.  
 
-To calculate all this, we solve the time-dependent master equation for a given temporal window, at a specific time-step.
-From there, having calculated the density matrix for each time value, we can calculate the expectation value of any observable vs time.
+To calculate all this, we solve the time-dependent master equation for a given temporal window, and for a specific time-step.
+The calculation produces the density matrix at each time point, and, from there, we can calculate the expectation value of any observable vs time, for our calculation time window.
 
 So, we calculate the time derivative of the expectation value of the spin polarization, and, in its FFT spectrum, 
 a rich multitude of behaviours owing to the magnetic fields becomes apparent.
